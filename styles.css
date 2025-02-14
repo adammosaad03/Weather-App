@@ -1,0 +1,49 @@
+body{
+  background: lightblue;
+  
+  justify-content: center;
+  align- items: center;
+}
+#root{
+  border: 3px solid
+}
+#Location{
+ 
+  margin: 0px 350px;
+  font-size:28px;
+}
+button:hover{
+  cursor: pointer;
+}
+button{
+  margin: 120px 650px;
+  width: 205px;
+  height: 35px;
+  background: teal;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+#name{
+color: blue;
+font-weight: bold;  
+}
+img{
+  margin: 15px 670px;
+}
+#weather{
+  font-size: 20px;
+  margin: -48px 580px
+  
+}
+#temp{
+  margin:-65px 800px;
+  font-size: 28px
+}
+#like{
+  margin:35px 950px;
+}
+#feels{
+  margin: -65px 1080px;
+    font-size: 28px
+}
