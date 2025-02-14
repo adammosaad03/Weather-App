@@ -2,7 +2,7 @@
 const success = (pos) => {  // Add pos as the argument for the success function
   const long = pos.coords.longitude;
   const lat = pos.coords.latitude;
-  const markup = fetch(`https://weather-proxy.freecodecamp.rocks/api/current?lat=${lat}&lon=${long}`)
+   fetch(`https://weather-proxy.freecodecamp.rocks/api/current?lat=${lat}&lon=${long}`)
   .then(res => res.json())
   .then(data => {
     console.log(data);
